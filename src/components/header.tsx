@@ -34,14 +34,14 @@ const Header = () => {
             </a>
           </nav>
 
-          {/* Search Button */}
+          {}
           <div className="hidden md:flex items-center">
             <button className="bg-fitstart-green text-fitstart-dark px-6 py-2 rounded-full font-semibold hover:bg-opacity-90 transition-all transform hover:scale-105">
               Get Started
             </button>
           </div>
 
-          {/* Mobile menu button */}
+          {}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -52,7 +52,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {}
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
