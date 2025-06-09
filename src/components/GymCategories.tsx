@@ -6,7 +6,7 @@ const GymCategories = () => {
       title: "3-Star Gyms",
       description: "Affordable local gyms with essential equipment",
       icon: <Star className="text-yellow-500" size={40} />,
-      price: "From $29/month",
+      price: "From ₹100/month",
       features: ["Basic Equipment", "Locker Rooms", "Free Weights"],
       gradient: "from-yellow-100 to-yellow-50",
       border: "border-yellow-200"
@@ -15,7 +15,7 @@ const GymCategories = () => {
       title: "4-Star Gyms",
       description: "Well-equipped facilities with group classes",
       icon: <Award className="text-blue-500" size={40} />,
-      price: "From $59/month",
+      price: "From ₹200/month",
       features: ["Modern Equipment", "Group Classes", "Personal Training"],
       gradient: "from-blue-100 to-blue-50",
       border: "border-blue-200"
@@ -24,7 +24,7 @@ const GymCategories = () => {
       title: "5-Star Gyms",
       description: "Premium facilities with comprehensive amenities",
       icon: <Trophy className="text-purple-500" size={40} />,
-      price: "From $89/month",
+      price: "From ₹500/month",
       features: ["Premium Equipment", "Spa Services", "Nutrition Coaching"],
       gradient: "from-purple-100 to-purple-50",
       border: "border-purple-200"
@@ -33,7 +33,7 @@ const GymCategories = () => {
       title: "Premium Elite",
       description: "Luxury fitness centers with exclusive services",
       icon: <Crown className="text-fitstart-green" size={40} />,
-      price: "From $149/month",
+      price: "From ₹1000/month",
       features: ["Luxury Amenities", "Personal Chef", "VIP Services"],
       gradient: "from-green-100 to-green-50",
       border: "border-green-200"

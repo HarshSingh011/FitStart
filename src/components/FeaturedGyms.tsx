@@ -2,40 +2,36 @@ import { Star, MapPin, Clock } from "lucide-react";
 
 const FeaturedGyms = () => {
   const gyms = [
-    {
-      name: "PowerFlex Fitness Center",
+    {      name: "PowerFlex Fitness Center",
       rating: 4.9,
       location: "Downtown District",
       image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop",
       category: "5-Star",
-      price: "$89/month",
+      price: "₹600/month",
       amenities: ["Pool", "Sauna", "Personal Training"]
     },
-    {
-      name: "Elite Performance Gym",
+    {      name: "Elite Performance Gym",
       rating: 5.0,
       location: "Business District",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
       category: "Premium",
-      price: "$149/month",
+      price: "₹1200/month",
       amenities: ["Spa", "Nutrition Bar", "VIP Lounge"]
     },
-    {
-      name: "Community Fitness Hub",
+    {      name: "Community Fitness Hub",
       rating: 4.2,
       location: "Residential Area",
       image: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&h=300&fit=crop",
       category: "3-Star",
-      price: "$29/month",
+      price: "₹200/month",
       amenities: ["Free Weights", "Cardio", "Locker Rooms"]
     },
-    {
-      name: "Urban Athletic Club",
+    {      name: "Urban Athletic Club",
       rating: 4.7,
       location: "City Center",
       image: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=400&h=300&fit=crop",
       category: "4-Star",
-      price: "$59/month",
+      price: "₹500/month",
       amenities: ["Group Classes", "Modern Equipment", "Parking"]
     }
   ];
@@ -53,10 +49,9 @@ const FeaturedGyms = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {gyms.map((gym, index) => (
-            <div
+          {gyms.map((gym, index) => (            <div
               key={index}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer flex flex-col h-full"
             >
               <div className="relative">
                 <img
@@ -77,7 +72,7 @@ const FeaturedGyms = () => {
                 </div>
               </div>
 
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-xl font-bold text-fitstart-dark mb-2">
                   {gym.name}
                 </h3>
@@ -95,9 +90,7 @@ const FeaturedGyms = () => {
                     <Clock size={14} className="mr-1" />
                     <span className="text-xs">24/7</span>
                   </div>
-                </div>
-
-                <div className="mb-4">
+                </div>                <div className="mb-4 flex-grow">
                   <div className="flex flex-wrap gap-1">
                     {gym.amenities.map((amenity, amenityIndex) => (
                       <span
@@ -110,7 +103,7 @@ const FeaturedGyms = () => {
                   </div>
                 </div>
 
-                <button className="w-full bg-fitstart-green text-fitstart-dark py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all transform hover:scale-105">
+                <button className="w-full bg-fitstart-green text-fitstart-dark py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-all transform hover:scale-105 mt-auto">
                   View Details
                 </button>
               </div>

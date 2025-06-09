@@ -33,22 +33,22 @@ const Footer = () => {
           {}
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>            <ul className="space-y-2">
-              <li><a href="/gyms" className="text-gray-300 hover:text-fitstart-green transition-colors">Find Gyms</a></li>
-              <li><a href="/categories" className="text-gray-300 hover:text-fitstart-green transition-colors">Categories</a></li>
-              <li><a href="/pricing" className="text-gray-300 hover:text-fitstart-green transition-colors">Pricing</a></li>
-              <li><a href="/about" className="text-gray-300 hover:text-fitstart-green transition-colors">About Us</a></li>
-              <li><a href="/contact" className="text-gray-300 hover:text-fitstart-green transition-colors">Contact</a></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Find Gyms</span></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Categories</span></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Pricing</span></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">About Us</span></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Contact</span></li>
             </ul>
           </div>
 
           {}
           <div>
             <h3 className="text-lg font-semibold mb-4">Support</h3>            <ul className="space-y-2">
-              <li><a href="/help" className="text-gray-300 hover:text-fitstart-green transition-colors">Help Center</a></li>
-              <li><a href="/safety" className="text-gray-300 hover:text-fitstart-green transition-colors">Safety</a></li>
-              <li><a href="/community" className="text-gray-300 hover:text-fitstart-green transition-colors">Community</a></li>
-              <li><a href="/terms" className="text-gray-300 hover:text-fitstart-green transition-colors">Terms of Service</a></li>
-              <li><a href="/privacy" className="text-gray-300 hover:text-fitstart-green transition-colors">Privacy Policy</a></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Help Center</span></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Safety</span></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Community</span></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Terms of Service</span></li>
+              <li><span className="text-gray-300 hover:text-fitstart-green transition-colors cursor-default">Privacy Policy</span></li>
             </ul>
           </div>
         </div>
