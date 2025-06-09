@@ -1,4 +1,4 @@
-import { Search, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../logo.png"
 
@@ -16,20 +16,18 @@ const Header = () => {
               alt="FitStart"
               className="h-10 w-auto"
             />
-          </div>
-
-          {}
+          </div>          {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-fitstart-dark hover:text-fitstart-green transition-colors">
+            <a href="/gyms" className="text-fitstart-dark hover:text-fitstart-green transition-colors">
               Find Gyms
             </a>
-            <a href="#" className="text-fitstart-dark hover:text-fitstart-green transition-colors">
+            <a href="/categories" className="text-fitstart-dark hover:text-fitstart-green transition-colors">
               Categories
             </a>
-            <a href="#" className="text-fitstart-dark hover:text-fitstart-green transition-colors">
+            <a href="/about" className="text-fitstart-dark hover:text-fitstart-green transition-colors">
               About
             </a>
-            <a href="#" className="text-fitstart-dark hover:text-fitstart-green transition-colors">
+            <a href="/contact" className="text-fitstart-dark hover:text-fitstart-green transition-colors">
               Contact
             </a>
           </nav>
@@ -54,18 +52,17 @@ const Header = () => {
 
         {}
         {isMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-200">
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              <a href="#" className="block px-3 py-2 text-fitstart-dark hover:text-fitstart-green transition-colors">
+          <div className="md:hidden bg-white border-t border-gray-200">            <div className="px-2 pt-2 pb-3 space-y-1">
+              <a href="/gyms" className="block px-3 py-2 text-fitstart-dark hover:text-fitstart-green transition-colors">
                 Find Gyms
               </a>
-              <a href="#" className="block px-3 py-2 text-fitstart-dark hover:text-fitstart-green transition-colors">
+              <a href="/categories" className="block px-3 py-2 text-fitstart-dark hover:text-fitstart-green transition-colors">
                 Categories
               </a>
-              <a href="#" className="block px-3 py-2 text-fitstart-dark hover:text-fitstart-green transition-colors">
+              <a href="/about" className="block px-3 py-2 text-fitstart-dark hover:text-fitstart-green transition-colors">
                 About
               </a>
-              <a href="#" className="block px-3 py-2 text-fitstart-dark hover:text-fitstart-green transition-colors">
+              <a href="/contact" className="block px-3 py-2 text-fitstart-dark hover:text-fitstart-green transition-colors">
                 Contact
               </a>
               <button className="w-full bg-fitstart-green text-fitstart-dark px-6 py-2 rounded-full font-semibold hover:bg-opacity-90 transition-all mt-4">
